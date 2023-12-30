@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body, html {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: #676767;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.appBox {
+    height: 400px;
+    width: 350px;
+    background: linear-gradient(#045364, #042c64);
+    border-radius: 10px;
+    padding: 40px 20px;
+}
+.searchBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.input {
+    height: 50px;
+    width: 80%;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    padding: 0px 15px;
+}
+ i {
+    font-size: 25px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 50%;
+}
+.statusBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 80%;
+}
+.temp h1{
+    text-align: center;
+    color: white;
+}
+.otherStatus {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+}
+.one , .two ,.three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
